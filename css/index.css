@@ -182,6 +182,7 @@ p {
   text-align: center;
   font-size: 3rem;
   padding-bottom: 0.5rem;
+  color: #23293B;
 }
 .row nav {
   text-align: center;
@@ -190,7 +191,7 @@ p {
 }
 .row nav a {
   text-decoration: none;
-  color: #22283A;
+  color: #454A59;
   padding: 1rem;
 }
 footer {
