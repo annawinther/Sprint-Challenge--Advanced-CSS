@@ -4,7 +4,7 @@
   color: white;
   padding: 1rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   width: 30%;
   font-weight: bold;
 }
@@ -255,9 +255,13 @@ footer {
   color: white;
   padding: 1rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   width: 30%;
   font-weight: bold;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #454A59;
+  color: pink;
 }
 .home .walk .walk-img {
   width: 46%;
