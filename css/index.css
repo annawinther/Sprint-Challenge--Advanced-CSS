@@ -164,11 +164,13 @@ p {
   display: flex;
   flex-direction: column;
   background-color: #F1F1F1;
-  padding: 1rem;
+  padding: 2rem;
+  padding-bottom: 0.5rem;
 }
 .row h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
 }
 .row nav {
   text-align: center;
@@ -190,6 +192,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  width: 92%;
+  align-content: center;
+  margin: 0 2rem 2rem 2rem;
 }
 .home .intro h2 {
   padding: 15px;
