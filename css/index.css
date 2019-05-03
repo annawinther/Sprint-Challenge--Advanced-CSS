@@ -1,13 +1,3 @@
-.buttonParametric {
-  border-radius: 0.5rem;
-  background-color: #22283A;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-  font-size: 2rem;
-  width: 30%;
-  font-weight: bold;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -203,6 +193,13 @@ footer {
   align-items: center;
 }
 @media (max-width: 500px) {
+  footer {
+    width: 95%;
+    align-content: center;
+    margin: 5px 5px 10px 10px;
+  }
+}
+@media (max-width: 500px) {
   .home .intro {
     flex-direction: column;
   }
@@ -263,7 +260,10 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk {
+    width: 90%;
     flex-direction: column-reverse;
+    padding: 10px 1px 10px 0px;
+    justify-content: center;
   }
 }
 .home .walk .walk-text {
@@ -273,7 +273,8 @@ footer {
   .home .walk .walk-text {
     flex-direction: row;
     width: 100%;
-    padding: 1rem;
+    margin-left: 20px;
+    margin-top: 10px;
   }
 }
 .home .walk .walk-text h3 {
@@ -296,6 +297,7 @@ footer {
   .home .walk .walk-text .btn {
     width: 100%;
     padding: 2rem;
+    margin-left: 0px ;
   }
 }
 .home .walk .walk-text .btn:hover {

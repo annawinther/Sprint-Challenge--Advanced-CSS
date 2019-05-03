@@ -7,6 +7,7 @@
     @media @phone{
       flex-direction: column;
     }
+
     img {
       width: 92%;
       align-content: center;
@@ -67,7 +68,10 @@
   .walk {
 
     @media @phone{
+      width: 90%;
       flex-direction: column-reverse;
+      padding:10px 1px 10px 0px;
+      justify-content: center;
     }
 
     margin-top: 60px;
@@ -77,10 +81,13 @@
     justify-content: center;
 
     .walk-text {
+
       @media @phone{
         flex-direction: row;
         width: 100%;
-        padding: @mediumPadding;
+        //padding: @mediumPadding;
+        margin-left: 20px;
+        margin-top: 10px;
       }
       width: 50%;
 
@@ -98,6 +105,7 @@
         @media @phone{
           width: 100%;
           padding: @largePadding;
+          margin-left:0px ;
 
         }
 
