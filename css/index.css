@@ -1,3 +1,14 @@
+/*
+.buttonParametric(){
+    border-radius: @smallPadding;
+    background-color: @btn-bg-color;
+    color:white;
+    padding: @mediumPadding;
+    text-align: center;
+    font-size: @largeFontSize;
+    width: 30%;
+    font-weight: bold;
+}*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -209,6 +220,13 @@ footer {
   align-content: center;
   margin: 0 2rem 2rem 2rem;
 }
+@media (max-width: 500px) {
+  .home .intro img {
+    width: 100%;
+    align-content: center;
+    margin: 1px 1px 1px 1px;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -284,11 +302,11 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  border-radius: 0.5rem;
   background-color: #22283A;
-  color: white;
-  padding: 1rem;
+  color: #F6F7F8;
   text-align: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
   font-size: 2rem;
   width: 30%;
   font-weight: bold;
@@ -297,7 +315,6 @@ footer {
   .home .walk .walk-text .btn {
     width: 100%;
     padding: 2rem;
-    margin-left: 0px ;
   }
 }
 .home .walk .walk-text .btn:hover {

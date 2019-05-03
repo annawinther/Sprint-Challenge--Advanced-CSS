@@ -9,6 +9,12 @@
     }
 
     img {
+
+      @media @phone{
+        width:100%;
+        align-content: center;
+        margin: 1px 1px 1px 1px;
+      }
       width: 92%;
       align-content: center;
       margin: 0 2rem 2rem 2rem;
@@ -54,6 +60,7 @@
     @media @phone{
       flex-direction: column;
     }
+    
     padding: 15px;
 
     h3 {
@@ -72,6 +79,8 @@
       flex-direction: column-reverse;
       padding:10px 1px 10px 0px;
       justify-content: center;
+      //border-top: 1px solid @main-border-color;
+  
     }
 
     margin-top: 60px;
@@ -100,13 +109,11 @@
       }
 
       .btn {
-        .buttonParametric();
+        .buttonParametric(@btn-bg-color, @porcelain, center);
 
         @media @phone{
           width: 100%;
           padding: @largePadding;
-          margin-left:0px ;
-
         }
 
         &:hover{
@@ -117,10 +124,9 @@
     }
 
     .walk-img {
+
       @media @phone{
         width: 100%;
-        
-
       }
 
       width: 46%;
