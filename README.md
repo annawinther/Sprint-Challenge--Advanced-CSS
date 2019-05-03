@@ -39,7 +39,7 @@ A responsive website combine features of adaptive, fixed and fluid websites and 
 
 2. Describe what it means to be mobile first vs desktop first.
 
-Mobile first means you're designing for a mobile device first and then expand layout or features as you gain more screen space. Desktop first is simply the opposite. You design and code for a desktop first and then shrink as you get less screen space.
+Mobile first means you're designing a page/site for a mobile device first and then expand layout or features as you gain more screen space. Desktop first is simply the opposite. You design and code for a desktop first and then shrink as you get less screen space.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
