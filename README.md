@@ -1,5 +1,5 @@
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
-
+Test
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
 
 ## Instructions
@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website borrow from the speed of a fixed layout but also accommodate different devices at specific breakpoints in design. Also the layout widths are hard coded at each media query, plus quick deployment for specific devices.
+A responsive website combine features of adaptive, fixed and fluid websites and media queries are used for responsive units so that as the viewport shrinks or expand so will the device screen size. Also responsive units are used throughout the site rather than hard coded. It accommodates thousands of devices and takes longer to build.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means you're designing a page/site for a mobile device first and then expand layout or features as you gain more screen space. Desktop first is simply the opposite. You design and code for a desktop first and then shrink as you get less screen space.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+If you set the :root to be 62.5% in the html tag, it will make it easier for us to use rem units as 62.5% = 10px = 1rem.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a syntax for CSS written in a different language, which is then complies into normal CSS. A complier is a program that converts language into code.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite part of processing is the fact that we write in LESS rather than CSS. So many things makes so much more sense with LESS. E.g. the nesting of selectors, making variables etc. I think the concept that gives me the most trouble is mixins. I am getting the hang of it but it is still confusing. Also the fact that files needs to be imported into LESS and having everything in different files, makes it a little bit confusing. But LESS is brilliant!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
